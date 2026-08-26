@@ -3,7 +3,7 @@ name: 保持仓库活跃
 on:
   schedule:
     # 每月1日运行一次
-    - cron: '0 0 1 * *'
+    - cron: '0 16 * * *'
   # 允许手动触发
   workflow_dispatch:
 
